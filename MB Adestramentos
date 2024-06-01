@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> MB adestramento de Cães</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #4B5320; /* Cor verde camuflada */
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .services, .gallery, .testimonials, .about, .contact {
+            margin: 40px 0;
+        }
+        h2 {
+            color: #4B5320; /* Cor verde camuflada */
+            border-bottom: 2px solid #4B5320; /* Cor verde camuflada */
+            padding-bottom: 10px;
+        }
+        p {
+            line-height: 1.6;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .gallery img {
+            width: calc(33.333% - 10px);
+            border-radius: 8px;
+        }
+        .testimonials .testimonial {
+            background-color: #fff;
+            padding: 20px;
+            margin: 10px 0;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .contact form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .contact form input, .contact form textarea {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact form button {
+            padding: 10px;
+            background-color: #4B5320; /* Cor verde camuflada */
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .social-links {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .social-links a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #4B5320; /* Cor verde camuflada */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>MB adestramento de Cães</h1>
+        <p>Transformando seu cão em um companheiro bem-comportado</p>
+    </header>
+    <div class="container">
+        <section class="about">
+            <h2>Sobre Nós</h2>
+            <p>Somos uma equipe de especialistas em comportamento canino dedicados a ajudar cães e seus donos a viverem em harmonia. Com anos de experiência e uma abordagem baseada em reforço positivo, garantimos resultados eficazes e duradouros.</p>
+        </section>
+        <section class="services">
+            <h2>Nosso Serviços</h2>
+            <p>Oferecemos uma variedade de serviços para ajudar a treinar seu cão, desde obediência básica até habilidades avançadas. Nossos métodos são baseados em reforço positivo para garantir que seu cão aprenda de maneira feliz e saudável.</p>
+        </section>
+        <section class="gallery">
+            <h2>Galeria</h2>
+            <img src="" alt="Cão adestrado 1">
+            <img src="https://via.placeholder.com/300" alt="Cão adestrado 2">
+            <img src="https://via.placeholder.com/300" alt="Cão adestrado 3">
+        </section>
+        <section class="testimonials">
+            <h2>Depoimentos</h2>
+            <div class="testimonial">
+                <p>"Meu cachorro melhorou muito depois do treinamento. Agora ele obedece comandos e é muito mais tranquilo." - Maria</p>
+            </div>
+            <div class="testimonial">
+                <p>"Excelente serviço! Os treinadores são muito profissionais e pacientes." - João</p>
+            </div>
+            <div class="testimonial">
+                <p>"Recomendo a todos! Meu cãozinho aprendeu rapidamente e de forma divertida." - Ana</p>
+            </div>
+        </section>
+        <section class="contact">
+            <h2>Contato</h2>
+            <p>Entre em contato conosco para agendar uma sessão ou saber mais sobre nossos serviços.</p>
+            <form action="#" method="post">
+                <input type="text" name="name" placeholder="Seu Nome" required>
+                <input type="email" name="email" placeholder="Seu Email" required>
+                <textarea name="message" rows="5" placeholder="Sua Mensagem" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+        <div class="social-links">
+            <h2>Siga-nos nas Redes Sociais</h2>
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+            <a href="#">Twitter</a>
+        </div>
+    </div>
+</body>
+</html>
